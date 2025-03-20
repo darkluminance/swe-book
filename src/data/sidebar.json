@@ -1,0 +1,18 @@
+{
+	"navigation": [
+		{
+			"title": "Dashboard",
+			"href": "/"
+		},
+		{
+			"title": "Features",
+			"href": "/features",
+			"isPremium": false
+		},
+		{
+			"title": "Analytics",
+			"href": "/analytics",
+			"isPremium": true
+		}
+	]
+}
