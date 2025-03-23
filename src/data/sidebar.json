@@ -1,53 +1,11 @@
 {
 	"navigation": [
 	  {
-		"title": "Main Menu",
+		"title": "Intro to SWE 101",
 		"items": [
 		  {
-			"title": "Dashboard",
+			"title": "Welcome to Learnland!",
 			"href": "/"
-		  },
-		  {
-			"title": "Features",
-			"href": "/features",
-			"isPremium": false
-		  }
-		]
-	  },
-	  {
-		"title": "Analytics",
-		"items": [
-		  {
-			"title": "Overview",
-			"href": "/analytics"
-		  },
-		  {
-			"title": "Advanced Reports",
-			"href": "/analytics/reports",
-			"isPremium": true
-		  },
-		  {
-			"title": "User Insights",
-			"href": "/analytics/users",
-			"isPremium": true
-		  }
-		]
-	  },
-	  {
-		"title": "Settings",
-		"items": [
-		  {
-			"title": "Account",
-			"href": "/settings/account"
-		  },
-		  {
-			"title": "Preferences",
-			"href": "/settings/preferences"
-		  },
-		  {
-			"title": "Team Members",
-			"href": "/settings/team",
-			"isPremium": true
 		  }
 		]
 	  },
