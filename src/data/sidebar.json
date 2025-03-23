@@ -1,18 +1,219 @@
 {
 	"navigation": [
-		{
-			"title": "Dashboard",
+	  {
+		"title": "Intro to SWE 101",
+		"items": [
+		  {
+			"title": "Welcome to Learnland!",
 			"href": "/"
-		},
-		{
-			"title": "Features",
-			"href": "/features",
-			"isPremium": false
-		},
-		{
-			"title": "Analytics",
-			"href": "/analytics",
+		  }
+		]
+	  },
+	  {
+		"title": "Programming Fundamentals",
+		"items": [
+		  {
+			"title": "Value Types",
+			"href": "/fundamentals/value-types"
+		  },
+		  {
+			"title": "Static Types",
+			"href": "/fundamentals/static-types"
+		  },
+		  {
+			"title": "Dynamic Types",
+			"href": "/fundamentals/dynamic-types"
+		  },
+		  {
+			"title": "Reference Types",
+			"href": "/fundamentals/reference-types"
+		  },
+		  {
+			"title": "Strong Types",
+			"href": "/fundamentals/strong-types",
 			"isPremium": true
-		}
+		  },
+		  {
+			"title": "Weak Types",
+			"href": "/fundamentals/weak-types"
+		  },
+		  {
+			"title": "Interpretation",
+			"href": "/fundamentals/interpretation"
+		  },
+		  {
+			"title": "Compilation",
+			"href": "/fundamentals/compilation",
+			"isPremium": true
+		  },
+		  {
+			"title": "JIT",
+			"href": "/fundamentals/jit"
+		  },
+		  {
+			"title": "Generics",
+			"href": "/fundamentals/generics",
+			"isPremium": true
+		  },
+		  {
+			"title": "Garbage Collection",
+			"href": "/fundamentals/garbage-collection"
+		  },
+		  {
+			"title": "Error Handling",
+			"href": "/fundamentals/error-handling"
+		  }
+		]
+	  },
+	  {
+		"title": "Data Structures",
+		"items": [
+		  {
+			"title": "Linear DS",
+			"href": "/data-structures/linear"
+		  },
+		  {
+			"title": "Non Linear DS",
+			"href": "/data-structures/non-linear"
+		  },
+		  {
+			"title": "Array",
+			"href": "/data-structures/array"
+		  },
+		  {
+			"title": "Linked List",
+			"href": "/data-structures/linked-list",
+			"isPremium": true
+		  },
+		  {
+			"title": "String",
+			"href": "/data-structures/string"
+		  },
+		  {
+			"title": "Stack",
+			"href": "/data-structures/stack"
+		  },
+		  {
+			"title": "Queue",
+			"href": "/data-structures/queue"
+		  },
+		  {
+			"title": "Hash",
+			"href": "/data-structures/hash",
+			"isPremium": true
+		  },
+		  {
+			"title": "Tree",
+			"href": "/data-structures/tree"
+		  },
+		  {
+			"title": "Binary Tree",
+			"href": "/data-structures/binary-tree",
+			"isPremium": true
+		  },
+		  {
+			"title": "Binary Search Tree",
+			"href": "/data-structures/binary-search-tree"
+		  },
+		  {
+			"title": "Heap",
+			"href": "/data-structures/heap",
+			"isPremium": true
+		  },
+		  {
+			"title": "Graph",
+			"href": "/data-structures/graph"
+		  }
+		]
+	  },
+	  {
+		"title": "Object Oriented Programming",
+		"items": [
+		  {
+			"title": "Classes and Objects",
+			"href": "/oop/classes-objects"
+		  },
+		  {
+			"title": "Abstraction",
+			"href": "/oop/abstraction"
+		  },
+		  {
+			"title": "Encapsulation",
+			"href": "/oop/encapsulation",
+			"isPremium": true
+		  },
+		  {
+			"title": "Inheritance",
+			"href": "/oop/inheritance"
+		  },
+		  {
+			"title": "Polymorphism",
+			"href": "/oop/polymorphism",
+			"isPremium": true
+		  },
+		  {
+			"title": "Overloading",
+			"href": "/oop/overloading"
+		  },
+		  {
+			"title": "Overriding",
+			"href": "/oop/overriding"
+		  }
+		]
+	  },
+	  {
+		"title": "Memory Management",
+		"items": [
+		  {
+			"title": "Address Space",
+			"href": "/memory/address-space"
+		  },
+		  {
+			"title": "Memory Loading",
+			"href": "/memory/loading"
+		  },
+		  {
+			"title": "Memory Linking",
+			"href": "/memory/linking",
+			"isPremium": true
+		  },
+		  {
+			"title": "Swapping",
+			"href": "/memory/swapping"
+		  },
+		  {
+			"title": "Caching",
+			"href": "/memory/caching",
+			"isPremium": true
+		  }
+		]
+	  },
+	  {
+		"title": "Memory Allocation",
+		"items": [
+		  {
+			"title": "Single Continuous Allocation",
+			"href": "/allocation/continuous"
+		  },
+		  {
+			"title": "Partitioned Allocation",
+			"href": "/allocation/partitioned",
+			"isPremium": true
+		  },
+		  {
+			"title": "Paged Management",
+			"href": "/allocation/paged"
+		  },
+		  {
+			"title": "Segmented Management",
+			"href": "/allocation/segmented",
+			"isPremium": true
+		  },
+		  {
+			"title": "Fragmentation",
+			"href": "/allocation/fragmentation"
+		  }
+		]
+	  }
 	]
-}
+  }
