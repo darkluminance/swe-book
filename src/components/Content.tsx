@@ -8,7 +8,7 @@ interface PremiumContentProps {
 	premiumContent: React.ReactNode;
 }
 
-export default function PremiumContent({
+export default function Content({
 	isPremium,
 	freeContent,
 	premiumContent,

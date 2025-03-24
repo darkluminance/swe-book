@@ -1,3 +1,4 @@
+import CodeBox from "@/components/CodeBox";
 import PageWrapper from "@/components/PageWrapper";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 				<p className="text-gray-700 dark:text-gray-300">
 					Welcome to your Next.js application with Tailwind CSS!
 				</p>
+				{/* <CodeBox /> */}
 			</div>
 		</PageWrapper>
 	);

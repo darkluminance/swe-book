@@ -7,11 +7,11 @@ import { usePathname } from "next/navigation";
 import { CheckIcon, ChevronIconDown } from "./icons";
 import { useState } from "react";
 
-interface NavItem {
+export interface NavItem {
 	title: string;
 	items: NavSubItem[];
 }
-interface NavSubItem {
+export interface NavSubItem {
 	navSubItemIndex?: string;
 	title: string;
 	href: string;
