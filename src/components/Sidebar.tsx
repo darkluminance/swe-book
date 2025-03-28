@@ -6,17 +6,7 @@ import { useCompletedPages } from "@/context/CompletedPagesContext";
 import { usePathname } from "next/navigation";
 import { CheckIcon, ChevronIconDown } from "./icons";
 import { useState } from "react";
-
-interface NavItem {
-	title: string;
-	items: NavSubItem[];
-}
-interface NavSubItem {
-	navSubItemIndex?: string;
-	title: string;
-	href: string;
-	isPremium?: boolean;
-}
+import { NavItem, NavSubItem } from "@/types/Sidebar";
 
 export default function Sidebar() {
 	const { isPageCompleted } = useCompletedPages();

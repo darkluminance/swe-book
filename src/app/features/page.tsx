@@ -1,5 +1,5 @@
 import PageWrapper from "@/components/PageWrapper";
-import PremiumContent from "@/components/PremiumContent";
+import Content from "@/components/Content";
 import { isPremiumPage } from "@/utils/premiumUtils";
 
 export default function FeaturesPage() {
@@ -31,7 +31,7 @@ export default function FeaturesPage() {
 
 	return (
 		<PageWrapper title="Features">
-			<PremiumContent
+			<Content
 				isPremium={isPremium}
 				freeContent={freeContent}
 				premiumContent={premiumContent}
