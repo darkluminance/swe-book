@@ -3,29 +3,12 @@ import React, { useState } from 'react'
 import javascript from 'highlight.js/lib/languages/javascript'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/vs2015.css'
+import { CodeBoxProps } from '@/types/Sidebar';
 
 hljs.registerLanguage('javascript', javascript);
 
-const CodeBox = () => {
+const CodeBox = ({ codeString }: CodeBoxProps) => {
     const [copied, setCopied] = useState(false);
-    const codeString = `
-    // Example of a class in JavaScript
-    class Person {
-        constructor(name, age) {
-            this.name = name;
-            this.age = age;
-        }
-        
-        sayHello() {
-            return \`Hi, I'm \${this.name} and 
-                I'm \${this.age} years old.\`;
-        }
-    }
-
-    const person = new Person('John', 30);
-    console.log(person.sayHello());
-    // Output: Hi, I'm John and I'm 30 years old.
-    `;
 
     const highlightedCode = hljs.highlight(codeString, {
         language: 'javascript'

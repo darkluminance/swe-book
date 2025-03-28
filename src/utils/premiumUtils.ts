@@ -1,4 +1,4 @@
-import { NavItem, NavSubItem } from "@/components/Sidebar";
+import { NavItem, NavSubItem } from "@/types/Sidebar";
 import sidebarData from "@/data/sidebar.json";
 
 export function isPremiumPage(pathname: string): boolean {
